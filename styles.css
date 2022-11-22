@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Arya&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+        --red: #da8d93d9;
+        --muted-red: rgba(218, 141, 148, 0.3);
+
+        --yellow: #F9E383;
+        --muted-yellow: rgba(249, 227, 131, 0.3);
+
+        --blue: rgba(32, 71, 162, 0.5);
+        --dark-blue: #5574BC;
+        --muted-blue: #E9ECFD;
+}
+
+* {
+        font-family: 'Inter', sans-serif;
+}
+
+nav h1{
+        font-family: 'Arya', sans-serif;
+
+}
+
+#wwd-dropdown .dropdown-menu {
+        display: none;
+}
+
+#wwd-dropdown:hover .dropdown-menu {
+        display: block;
+}
+
+#about-dropdown .dropdown-menu {
+        display: none;
+}
+
+#about-dropdown:hover .dropdown-menu {
+        display: block;
+}
+
+
+.image-banner {
+        max-height: 450px;
+        object-fit: cover;
+        filter: brightness(40%)
+}
+
+.btn-primary {
+        background-color: var(--dark-blue) !important;
+        border-color: var(--dark-blue) !important;
+}
+
+.btn-primary:hover {
+        background-color: var(--dark-blue) !important;
+        border-color: var(--dark-blue) !important;
+}
+
+.bg-red {
+        background-color: var(--muted-red);
+        margin: 0px !important;
+}
+
+.bg-yellow {
+        background-color: var(--muted-yellow);
+}
+
+.bg-blue {
+        background-color: var(--muted-blue);
+}
+
+.highlight-red {
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0) 55%, var(--red) 45%);
+}
+
+.highlight-yellow {
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0) 55%, var(--yellow) 45%);
+}
+
+.highlight-blue {
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0) 55%, var(--blue) 45%);
+}
