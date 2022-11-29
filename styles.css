@@ -16,27 +16,19 @@
         font-family: 'Inter', sans-serif;
 }
 
-nav h1{
+nav h1 {
         font-family: 'Arya', sans-serif;
 
 }
 
-#wwd-dropdown .dropdown-menu {
-        display: none;
-}
-
-#wwd-dropdown:hover .dropdown-menu {
-        display: block;
-}
-
+#wwd-dropdown .dropdown-menu,
 #about-dropdown .dropdown-menu {
         display: none;
 }
 
-#about-dropdown:hover .dropdown-menu {
+#wwd-dropdown:hover .dropdown-menu, #about-dropdown:hover .dropdown-menu {
         display: block;
 }
-
 
 .image-banner {
         max-height: 450px;
@@ -77,4 +69,17 @@ nav h1{
 
 .highlight-blue {
         background: linear-gradient(180deg, rgba(255, 255, 255, 0) 55%, var(--blue) 45%);
+}
+
+.board-pic {
+        height: 145px;
+        width: 100%;
+        max-width: 145px;
+        object-fit: cover;
+}
+
+.poster {
+        min-height: 300px;
+        width: 100%;
+        object-fit: cover;
 }
